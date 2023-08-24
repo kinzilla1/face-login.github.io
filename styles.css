@@ -1,0 +1,156 @@
+body{
+    background: white;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h2, p{
+    margin: 0 35px 0 ;
+}
+.logo{
+    margin-top: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-sidebar{
+    display: flex;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.profile{
+    border-radius: 10px;
+    height: 200px;
+    width: 160px;
+    margin-left: 35px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.profile-pic{
+    width: 100%;
+    height: 80%;
+}
+.king{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.add-account{
+    padding: 0 45px;
+    border-radius: 10px;
+    height: 200px;
+    width: 65px;
+    margin-left: 25px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.add-account img{
+    display: block;
+    margin-top:50px;
+    width: 100%;
+}
+
+.add-account span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: blue;
+    font-size: 14px;
+    padding: 4px 0;
+ }
+
+ .right-sidebar{
+    text-align: center; 
+    margin-bottom: 250px;
+ }
+
+.login{
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: whitesmoke;
+} 
+.input{
+    width: 90%;
+    height: 30px;
+    border-style:outset;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.in{
+    width: 95%;
+    height: 40px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 13px;
+}
+.in h3{
+    text-align: center;
+}
+
+.password{
+    margin-top: 20px;
+    color: blue;
+    font-size: 14px;
+}
+hr{
+    margin-top: 20px;
+    width: 90%;
+}
+.create {
+    width: 55%;
+    height: 40px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    margin: 40px 60px;
+    font-size: 12px;
+}
+
+.page{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+ @media (max-width:500px) {
+    .logo{
+        width: 100%; 
+    }
+    h2 p{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify; 
+
+    }
+    .left-sidebar{
+        grid-template-columns: 1fr;
+    }
+    .right-sidebar{
+        margin: 20px;
+        grid-template-columns: 1fr;
+    }
+} */
