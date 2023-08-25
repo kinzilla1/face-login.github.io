@@ -102,6 +102,7 @@ h2, p{
     border-radius: 5px;
     margin: 10px;
     font-size: 13px;
+    text-align: center;
 }
 .in h3{
     text-align: center;
@@ -124,6 +125,7 @@ hr{
     border-radius: 5px;
     margin: 40px 60px;
     font-size: 12px;
+    text-align: center;
 }
 
 .page{
@@ -153,4 +155,10 @@ hr{
         margin: 20px;
         grid-template-columns: 1fr;
     }
-} */
+} 
+
+@media screen and (min-width:800px){
+    .left-sidebar{
+        margin-bottom: 100px;
+    }
+}
